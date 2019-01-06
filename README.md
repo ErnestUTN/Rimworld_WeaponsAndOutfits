@@ -13,6 +13,8 @@ The pawn then will check if he is equipping that weapon. If true he will do noth
 ---------------------------------------------------------------
 ## Compatibility:
 
+**It works in existing savegames, and with existing custom outfits too.**
+
 I have tested it quite a while with this modlist and had no problems:
 
 <activeMods>
