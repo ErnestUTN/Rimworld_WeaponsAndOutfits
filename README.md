@@ -54,4 +54,5 @@ NotFood's Outfitted code as the spiritual guide :P
 
 ---------------------------------------------------------------
 Github: https://github.com/ErnestUTN/Rimworld_WeaponsAndOutfits
+
 Ludeon Forum: https://ludeon.com/forums/index.php?topic=47700.0
