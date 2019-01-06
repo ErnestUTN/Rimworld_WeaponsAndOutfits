@@ -48,7 +48,10 @@ It might not be compatible with Outfitted
 ### Credits
 Rimworld's Discord Mod Development channel  for all the help regarding modding the game :)
 
+Harmony's Discord Channel for the additional "patching process" help
+
 NotFood's Outfitted code as the spiritual guide :P
 
 ---------------------------------------------------------------
 Github: https://github.com/ErnestUTN/Rimworld_WeaponsAndOutfits
+Ludeon Forum: https://ludeon.com/forums/index.php?topic=47700.0
