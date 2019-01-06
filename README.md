@@ -44,7 +44,7 @@ I have tested it quite a while with this modlist and had no problems:
 
 ---------------------------------------------------------------
 ## Incompatibility:
-It might not be compatible with Outfitted
+It might not be compatible with Outfitted or mods that modify the outfit dialog menu (not sure if also for mods that modify outfits per se -- needs more testing)
 
 ---------------------------------------------------------------
 ### Credits
