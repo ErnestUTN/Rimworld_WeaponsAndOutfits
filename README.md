@@ -45,8 +45,9 @@ I have tested it quite a while with this modlist and had no problems:
 It might not be compatible with Outfitted
 
 ---------------------------------------------------------------
-### Credits-
+### Credits
 Rimworld's Discord Mod Development channel  for all the help regarding modding the game :)
+
 NotFood's Outfitted code as the spiritual guide :P
 
 ---------------------------------------------------------------
