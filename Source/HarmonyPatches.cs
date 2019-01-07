@@ -44,6 +44,36 @@ namespace WeaponsAndOutfits
                 ThingFilterUI.DoThingFilterConfigWindow(filterRect,  ref ptr2, UIequipmentFilter, equipmentFilterParent, 16, null, null, false, null, null);
             }
         }
+        
+        [HarmonyPatch (typeof(Widgets),"FloatRange")]
+        static class Patch_Widgets_FloatRange
+        {
+           
+            static void Prefix(ref int id)
+            {
+
+                if (id == 1)
+                {
+                    System.Random rand = new System.Random();
+                    id = rand.Next(1,1000);
+                }
+            }
+        }
+
+        [HarmonyPatch(typeof(Widgets), "QualityRange")]
+        static class Patch_Widgets_QualityRange
+        {
+
+            static void Prefix(ref int id)
+            {
+
+                if (id == 876813230)
+                {
+                    System.Random rand = new System.Random();
+                    id = rand.Next(876813230, 876813230+1000);
+                }
+            }
+        }
 
         [HarmonyPatch(typeof(OutfitDatabase), nameof(OutfitDatabase.MakeNewOutfit))]
         static class OutfitDatabase_MakeNewOutfit_Patch
