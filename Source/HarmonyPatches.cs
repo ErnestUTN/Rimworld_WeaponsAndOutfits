@@ -26,7 +26,10 @@ namespace WeaponsAndOutfits
             
             static void Postfix(Dialog_ManageOutfits __instance , Outfit ___selOutfitInt)
             {
-
+                if (___selOutfitInt == null)
+                {
+                    return;
+                }
 
                 Rect filterRect = new Rect(320f, 40f+40f+10f , 300f, 509f);
                 ThingFilter equipmentFilter = Traverse.Create(___selOutfitInt).Field("equipmentFilter").GetValue<ThingFilter>();
