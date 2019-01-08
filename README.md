@@ -1,5 +1,6 @@
 # Rimworld_WeaponsAndOutfits
-Mod that gives the possibility to assign weapons to outfits, just like apparel
+
+Minimal Vanilla Outfit Mod that gives the possibility to assign weapons to outfits, just like apparel
 
 ![Screenshot](About/preview.png)
 
