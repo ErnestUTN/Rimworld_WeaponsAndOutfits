@@ -47,6 +47,9 @@ I have tested it quite a while with this modlist and had no problems:
 ## Incompatibility:
 It might not be compatible with Outfitted or mods that modify the outfit dialog menu (not sure if also for mods that modify outfits per se -- needs more testing)
 
+## Known Issues:
+1- Minor bug with workaround: Scroll Sliders won't appear for both filters if the weapon filter is not fully expanded. i.e : If you don't see sliders for the apparel filter when it should, try fully expanding the weapon filter too
+
 ---------------------------------------------------------------
 ### Credits
 Rimworld's Discord Mod Development channel  for all the help regarding modding the game :)
